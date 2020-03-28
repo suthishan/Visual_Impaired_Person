@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+    <!-- Include Action Bar -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        layout="@layout/actionbar_layout" />
+
+    <!--  Include Fragmented dashboard -->
+
+    <include
+        layout="@layout/fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="342dp" />
+
+    <!--  Include Footer -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        layout="@layout/footer_layout" />
+
+</LinearLayout>

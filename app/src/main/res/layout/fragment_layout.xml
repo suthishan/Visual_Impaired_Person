@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<person.impaired.visual.app.com.visual_impaired_person.TrackerPartition
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:id="@+id/dash1"
+  
+    >
+
+   <TextView
+       android:id="@+id/ttrack"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:fontFamily="Calibri (Body)"
+    android:text="Object "
+       android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/track"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icons"
+        android:text="Track Object" 
+        android:onClick="onMotionProcess"
+        
+        />
+    <TextView
+        android:id="@+id/ttrack1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fontFamily="Calibri (Body)"
+        android:textColor="#ffffff"
+        />
+
+
+
+
+</person.impaired.visual.app.com.visual_impaired_person.TrackerPartition>
